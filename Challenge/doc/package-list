@@ -1,0 +1,5 @@
+com.gra.lifesum
+com.gra.lifesum.persistence
+com.gra.lifesum.persistence.adapter
+com.gra.lifesum.persistence.domain
+com.gra.lifesum.resource
