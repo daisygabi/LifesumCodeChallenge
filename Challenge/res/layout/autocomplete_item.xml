@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="@dimen/activity_horizontal_margin" >
+
+    <ImageView
+        android:id="@+id/favImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/app_name"
+        android:paddingRight="8dp"
+        android:src="@drawable/fav" />
+
+    <TextView
+        android:id="@+id/autocomplete_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="75dip"
+        android:paddingBottom="10dip"
+        android:text="name"
+        android:textSize="16sp"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/autocomplete_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/autocomplete_item"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dip"
+        android:textColor="@color/light_green"
+        android:textSize="15dip" />
+    
+     <TextView
+        android:id="@+id/autocomplete_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/autocomplete_category"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dip"
+        android:textColor="@color/light_green"
+        android:textSize="15dip" />
+
+</RelativeLayout>

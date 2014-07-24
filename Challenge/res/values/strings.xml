@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lifesum Challenge</string>
+    <string name="action_clear_fav">Clear favorites</string>
+    <string name="search_input">Search for food</string>
+    
+    <string name="no_network">No network connection found. Try again please.</string>
+
+</resources>

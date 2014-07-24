@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gra.lifesum.MainActivity" >
+
+    <AutoCompleteTextView
+        android:id="@+id/foodAutocompleteTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:completionThreshold="3"
+        android:hint="@string/search_input"
+        android:inputType="textImeMultiLine"
+        android:textSize="16sp"
+        android:typeface="sans" />
+
+    <ImageView
+        android:id="@+id/noDataImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:scaleType="center"
+        android:src="@drawable/nodata" />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/foodAutocompleteTxt"
+        android:visibility="visible" />
+
+</RelativeLayout>
